@@ -7,61 +7,63 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <navbar id="nav">
-        <left class="left-container">
-            <div>
-                <img src="assets/menu.svg" alt="menu"> 
-            </div>
-            <div>
-                <img src="assets/home.svg" alt="home">
-            </div>
-            <div id="find-container">
-                <img id="search" src=assets/search.svg alt="search">
-                <p id="p-find">Find</p>
-            </div>
-            <div>
-                
-            </div>
-        </left>
-        <right class="right-container">
-            <div>
-                <img src="assets/add.svg" alt="add">
-            </div>
-            <div id="div-time">
-                <img id="time" src=assets/time.svg alt="add">
-                <p id="text-time">3/4</p>
-            </div>
-            <div>
-                <img src="assets/bell.svg" alt="notifications">
-            </div>
-            <div>
-                <img src="assets/cog.svg" alt="options">
-            </div>
-        </right>
-    </navbar>
+    <wrap-navbar>
+        <navbar id="nav">
+            <left class="left-container">
+                <div>
+                    <img src="assets/menu.svg" alt="menu"> 
+                </div>
+                <div>
+                    <img src="assets/home.svg" alt="home">
+                </div>
+                <div id="find-container">
+                    <img id="search" src=assets/search.svg alt="search">
+                    <p id="p-find">Find</p>
+                </div>
+                <div>
+                    
+                </div>
+            </left>
+            <right class="right-container">
+                <div>
+                    <img src="assets/add.svg" alt="add">
+                </div>
+                <div id="div-time">
+                    <img id="time" src=assets/time.svg alt="add">
+                    <p id="text-time">3/4</p>
+                </div>
+                <div>
+                    <img src="assets/bell.svg" alt="notifications">
+                </div>
+                <div>
+                    <img src="assets/cog.svg" alt="options">
+                </div>
+            </right>
+        </navbar>
+    </wrap-navbar>
     <main id="container-main">
         <wrap-aside id="wrap-id">
             <aside class="container-aside">
                 <div class="icon-aside">
-                    <img src="assets/inbox.svg" alt="inbox"> <p>Inbox</p> <p>2</p>
+                    <img src="assets/inbox.svg" alt="inbox"> <p>Inbox</p> <p class="numero-aside">2</p>
                 </div>
                 <div class="icon-aside">
                     <img src="assets/move-inbox.svg" alt="Team Inbox"> <p>Team Inbox</p>
                 </div>
                 <div class="icon-aside">
-                    <img src="assets/calendar.svg" alt="Today"> <p>Today</p> <p>3</p>
+                    <img src="assets/calendar.svg" alt="Today"> <p>Today</p> <p class="numero-aside">3</p>
                 </div>
                 <div class="icon-aside">
-                    <img src="assets/upcoming.svg" alt="Upcoming"> <p>Upcoming</p> <p>8</p>
+                    <img src="assets/upcoming.svg" alt="Upcoming"> <p>Upcoming</p> <p class="numero-aside">8</p>
                 </div>
                 <div class="icon-aside">
-                    <img src="assets/user.svg" alt="Pitch Video"> <p><b>Pitch Video</b></p><p>3</p>
+                    <img src="assets/user.svg" alt="Pitch Video"> <p><b>Pitch Video</b></p> <p class="numero-aside">3</p>
                 </div>
                 <div class="icon-aside">
-                    <img src="assets/ticket.svg" alt="Roadmap"> <p>Roadmap</p> <p>4</p>
+                    <img src="assets/ticket.svg" alt="Roadmap"> <p>Roadmap</p> <p class="numero-aside">4</p>
                 </div>
                 <div class="icon-aside">
-                    <img src="assets/drop.svg" alt="Important"> <p>Important</p> <p>32</p>
+                    <img src="assets/drop.svg" alt="Important"> <p>Important</p> <p class="numero-aside">32</p>
                 </div>
                 <div class="icon-aside">
                     <img src="assets/arrow.svg" alt="Projects"> <p><b>Projects</b></p>
@@ -74,9 +76,33 @@
                 </div>
             </aside>
         </wrap-aside>
-        <bigcontent>
-
-        </bigcontent>
+        <wrap-big-content>
+            <bigcontent id="big-content">
+                <div class="columns-big-content">
+                    <h2 id="title-pitch">Pitch Video</h2>
+                    <div class="title-card">
+                        <div class="emoji-column-flex">
+                            <p><b>Ideas</b></p>
+                            <img src="assets/bulb.svg" alt="Ideas">
+                            <p class="numero-aside">2</p>
+                        </div>
+                        <img src="assets/dots.svg" alt="Other">
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <img src="assets/circle.svg" alt="circle">
+                            <p>Animated</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns-big-content">
+                    <h2>Pitch Video</h2>
+                </div>
+                <div class="columns-big-content">
+                    <h2>Pitch Video</h2>
+                </div>
+            </bigcontent>
+    </wrap-big-content>
     </main>
 
     <script src="scripts.js"></script>
