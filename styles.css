@@ -95,20 +95,21 @@ body{
 }
 .columns-big-content{
     background-color: aqua;
-    padding: 70%;
-    padding-right: 252.8%;
+    padding: 150%;
+    padding-right: 235%;
     padding-bottom: 397%;
+    margin-left: -1%;
 }
 #title-pitch{
-    margin-top: -50%;
-    margin-left: -50%;
-    margin-bottom: 60%;
+    margin-top: -150%;
+    margin-left: -130%;
+    margin-bottom: 40%;
 }
 .title-card{
     display: flex;
     align-content: flex-start;
     gap: 50%;
-    margin-left: -50%;
+    margin-left: -130%;
 }
 .emoji-column-flex{
     display: flex;
@@ -120,7 +121,7 @@ body{
     border: 1% solid #e0e0e0;
     border-radius: 2%;
     padding: 1%;
-    margin-left: -50%;
+    margin-left: -130%;
     margin-right: -90%;
     margin-bottom: 20%;
     box-shadow: 0 0 10px rgba(0,0,0,1); 
@@ -133,5 +134,26 @@ body{
 .add-task{
     display: flex;
     gap: 10%;
-    margin-left: -50%;
+    margin-left: -130%;
+}
+
+#central-column{
+    margin-left:-100%;
+    margin-right: -120%;
+    background-color: chartreuse;
+}
+
+#central-title-card{
+    display: flex;
+    margin-top: -75%;
+    gap: -190%;
+    margin-left: -130%;
+}
+
+#central-column-emoji{
+    width: 50%;
+    gap: 5%;
+}
+#to-do-text{
+    white-space: nowrap;
 }
