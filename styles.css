@@ -73,7 +73,7 @@ body{
 .container-aside{
     background-color: rgb(122, 122, 122,0.20);
     padding: 11.50%;
-    padding-bottom: 300%;
+    padding-bottom: 340%;
     margin-right: -191%;
 }
 
@@ -94,11 +94,11 @@ body{
     margin-left:60%;
 }
 .columns-big-content{
-    background-color: aqua;
-    padding: 150%;
-    padding-right: 235%;
-    padding-bottom: 397%;
-    margin-left: -1%;
+    background-color: rgb(255, 255, 255);
+    padding: 123.4%;
+    padding-right: 188.5%;
+    padding-bottom: 93%;
+    margin-left: -25%;
 }
 #title-pitch{
     margin-top: -150%;
@@ -139,8 +139,8 @@ body{
 
 #central-column{
     margin-left:-100%;
-    margin-right: -120%;
-    background-color: chartreuse;
+    margin-right: -40%;
+    background-color: rgb(255, 255, 255);
 }
 
 #central-title-card{
@@ -156,4 +156,27 @@ body{
 }
 #to-do-text{
     white-space: nowrap;
+}
+
+#right-column{
+    margin-left: -50%;
+}
+
+#right-column-emoji{
+    display: flex;
+    align-content: flex-end;
+    gap: 20%;
+    margin-top: -110%;
+    padding-left: -150%;
+    margin-left: 170%;
+    width: 150%;
+}
+
+#user-flex-right{
+    display: flex;
+}
+
+#right-column-title-card{
+    margin-top: 20%;
+    margin-left: -130%;
 }
